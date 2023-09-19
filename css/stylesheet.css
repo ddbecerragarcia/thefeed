@@ -12,14 +12,15 @@ header {
     position: fixed;
     left: 25px;
     top: 35px;
+    font-family: 'DM Serif Text', serif;
 }
 
 nav {
     background-color: rgb(201, 221, 221);
     border-radius: 25px;
     text-align: center;
-    margin-left: 350px;
-    margin-right: 200px;
+    width: 650px;
+    margin-left: 340px;
     margin-top: 25px;
     padding: 15px;
     font-size: xx-large;
@@ -37,6 +38,7 @@ section {
     margin-top: 25px;
     padding: 25px;
     text-align: center;
+    font-family: 'Montserrat', serif;
 }
 
 section img {
@@ -55,7 +57,7 @@ a:link {
 }
 
 a:visited {
-    color:rgb(4, 56, 33)
+    color:black;
 }
 
 a:hover {
@@ -63,10 +65,15 @@ a:hover {
 }
 
 footer {
-    width: 300px;
+    background-color: rgb(201, 221, 221);
+    width: 100px;
     position: fixed;
+    text-align: center;
     bottom: 25px;
     left: 25px;
+    font-family: 'DM Serif Text', serif;
+    border-radius: 25px;
+    filter: drop-shadow(20px 20px 20px black);
 }
 
 #opengif {
