@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Montserrat&display=swap');
+
+body {
+    max-width: 1200px;
+    background-color: lightblue;
+    margin: auto; 
+    font-family: 'Lora', serif;
+}
+
+header {
+    width: 400px;
+    position: fixed;
+    left: 25px;
+    top: 35px;
+}
+
+nav {
+    background-color: rgb(201, 221, 221);
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 350px;
+    margin-right: 200px;
+    margin-top: 25px;
+    padding: 15px;
+    font-size: xx-large;
+    font-family: 'DM Serif Text', serif;
+} 
+
+main {
+    width: 650px;
+    margin-left: 350px;
+}
+
+section {
+    background-color: rgb(201, 221, 221);
+    border-radius: 25px;
+    margin-top: 25px;
+    padding: 25px;
+    text-align: center;
+}
+
+section img {
+    border-radius: 25px;
+    filter: drop-shadow(20px 20px 20px black);
+}
+
+section video {
+    border-radius: 25px;
+    filter: drop-shadow(20px 20px 20px black);
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color:rgb(4, 56, 33)
+}
+
+a:hover {
+    color:blue
+}
+
+footer {
+    width: 300px;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+}
+
+#opengif {
+    text-align: center;
+    margin-top: 15%;
+    filter: drop-shadow(20px 20px 20px black);
+}
