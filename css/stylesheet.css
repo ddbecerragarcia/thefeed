@@ -4,7 +4,7 @@ body {
     max-width: 1200px;
     background-color: rgb(42, 185, 233);
     margin: auto; 
-    font-family: 'Lora', serif;
+    font-family: 'DM Serif Text', serif;
 }
 
 header {
@@ -13,7 +13,7 @@ header {
     left: 25px;
     top: 25px;
     font-family: 'DM Serif Text', serif;
-    line-height: 15px;
+    line-height: 20px;
 }
 
 nav {
@@ -40,6 +40,10 @@ section {
     padding: 25px;
     text-align: center;
     font-family: 'Montserrat', serif;
+}
+
+h3:hover {
+    transform: scale(1.5);
 }
 
 section img {
@@ -76,7 +80,6 @@ a:visited {
 
 a:hover {
     color:blue;
-    transform: scale(2);
 }
 
 footer {
