@@ -2,7 +2,7 @@
 
 body {
     max-width: 1200px;
-    background-color: rgb(42, 185, 233);
+    background-color: rgb(47, 117, 140);
     margin: auto; 
     font-family: 'DM Serif Text', serif;
 }
@@ -12,8 +12,6 @@ header {
     position: fixed;
     left: 25px;
     top: 25px;
-    font-family: 'DM Serif Text', serif;
-    line-height: 20px;
 }
 
 nav {
@@ -40,10 +38,6 @@ section {
     padding: 25px;
     text-align: center;
     font-family: 'Montserrat', serif;
-}
-
-h3:hover {
-    transform: scale(1.5);
 }
 
 section img {
@@ -96,5 +90,18 @@ footer {
 #opengif {
     text-align: center;
     margin-top: 15%;
+    filter: drop-shadow(20px 20px 20px black);
+}
+
+#friends {
+    background-color: rgb(201, 221, 221);
+    width: 200px;
+    height: 400px;
+    border: solid rgb(227, 213, 19);
+    padding: 5px;
+    overflow: scroll;
+    margin-top: 30px;
+    border-radius: 25px;
+    text-align: center;
     filter: drop-shadow(20px 20px 20px black);
 }
