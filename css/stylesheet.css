@@ -51,31 +51,6 @@ section video {
     filter: drop-shadow(20px 20px 20px black);
 }
 
-.column { 
-    float: left;
-    width: 32%;
-    padding: 2px;
-  }
-  
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:visited {
-    color:black;
-}
-
-a:hover {
-    color:blue;
-}
-
 footer {
     background-color: rgb(201, 221, 221);
     width: 100px;
@@ -104,4 +79,29 @@ footer {
     border-radius: 25px;
     text-align: center;
     filter: drop-shadow(20px 20px 20px black);
+}
+
+.column { 
+    float: left;
+    width: 32%;
+    padding: 2px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:blue;
 }
